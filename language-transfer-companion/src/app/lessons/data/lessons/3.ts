@@ -47,7 +47,38 @@ const data: Data = {
       },
     ],
   ],
-  exercisePrompts: [],
+  exercisePrompts: [
+    {
+      task: "english-to-greek",
+      prompts: [
+        "where does he stay?",
+        "where does she live?",
+        "where is he waiting?",
+        "where is she waiting for me?",
+        "I insist",
+        "why is he staying?",
+        "why is she insisting?",
+        "why is he waiting for me?",
+        "why isn't she waiting for me?",
+        "what is he waiting for?",
+      ],
+    },
+    {
+      task: "greek-to-english",
+      prompts: [
+        "που μένει;",
+        // "που μένει;",
+        "που περιμένει;",
+        "που με περιμένει;",
+        "επιμένω",
+        "γιατί μένει;",
+        "γιατί επιμένει;",
+        "γιατί με περιμένει;",
+        "γιατί δεν με περιμένει;",
+        "τι περιμένει;",
+      ],
+    },
+  ],
 };
 
 export default data;
