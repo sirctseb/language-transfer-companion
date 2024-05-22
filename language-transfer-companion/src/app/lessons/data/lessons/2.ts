@@ -66,7 +66,6 @@ const data: Data = {
         "I wait",
         "I am waiting",
         "She waits",
-        "She waits",
         "She is waiting",
         "I am not waiting",
         "She is not waiting",
