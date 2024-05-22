@@ -1,15 +1,17 @@
-import { data } from "./greek-002-companion";
 import VocabList from "../VocabList";
 import { Header } from "../Header";
-
-const english = data.vocabulary.map((item) => item[0].word);
-const greek = data.vocabulary.map((item) => item[1].word);
+import { useData } from "../data/data";
 
 export default function Home() {
+  const { englishVocab, greekVocab } = useData(2);
   return (
     <>
       <Header text="Lesson 2" />
-      <VocabList englishWords={english} greekWords={greek} />
+      <VocabList
+        title="Lesson Vocab"
+        englishWords={englishVocab}
+        greekWords={greekVocab}
+      />
     </>
   );
 }

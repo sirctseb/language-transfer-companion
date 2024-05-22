@@ -9,11 +9,13 @@ enum Language {
 }
 
 type VocabListProps = {
+  title: string;
   englishWords: string[];
   greekWords: string[];
 };
 
 export default function VocabList({
+  title,
   englishWords,
   greekWords,
 }: VocabListProps) {
@@ -22,7 +24,7 @@ export default function VocabList({
   return (
     <Card className="max-w-2xl mx-auto">
       <div className="flex items-center justify-between bg-white p-4 shadow-sm dark:bg-gray-950">
-        <h2 className="text-lg font-medium">Terms</h2>
+        <h2 className="text-lg font-medium">{title}</h2>
         <div className="flex items-center space-x-2">
           <span className="text-sm font-medium">English</span>
           <Switch

@@ -1,6 +1,6 @@
-import { Data } from "../types";
+import { Data } from "../../types";
 
-export const data: Data = {
+const data: Data = {
   vocabulary: [
     [
       {
@@ -49,3 +49,5 @@ export const data: Data = {
   ],
   exercisePrompts: [],
 };
+
+export default data;
