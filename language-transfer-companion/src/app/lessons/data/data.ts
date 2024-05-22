@@ -11,28 +11,27 @@ export const useData = (
   minLesson: number,
   maxLesson: number = minLesson
 ): DataResult => {
-  return useMemo(() => {
-    const result: DataResult = {
-      vocabulary: [],
-      exercisePrompts: [],
-      englishVocab: [],
-      greekVocab: [],
-    };
+  return useMemo((): DataResult => {
+    const vocabulary = [];
+    const englishVocab = [];
+    const greekVocab = [];
 
     for (const lesson in data) {
       const lessonIndex = parseInt(lesson);
       if (lessonIndex >= minLesson && lessonIndex <= maxLesson) {
-        result.vocabulary.push(...data[lesson].vocabulary);
-        result.exercisePrompts.push(...data[lesson].exercisePrompts);
-        result.englishVocab.push(
+        vocabulary.push(...data[lesson].vocabulary);
+        englishVocab.push(
           ...data[lesson].vocabulary.map((item) => item[0].word)
         );
-        result.greekVocab.push(
-          ...data[lesson].vocabulary.map((item) => item[1].word)
-        );
+        greekVocab.push(...data[lesson].vocabulary.map((item) => item[1].word));
       }
     }
 
-    return result;
+    return {
+      vocabulary,
+      englishVocab,
+      greekVocab,
+      exercisePrompts: data[maxLesson].exercisePrompts,
+    };
   }, [minLesson, maxLesson]);
 };
