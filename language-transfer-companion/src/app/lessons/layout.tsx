@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <>
       <Header text={`Lesson ${lessonNumber}`} lesson={lessonNumber} />
-      {children}
+      <div className="py-12 md:py-12">{children}</div>
     </>
   );
 }
