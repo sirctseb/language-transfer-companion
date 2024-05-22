@@ -1,5 +1,4 @@
 import VocabList from "../VocabList";
-import { Header } from "../Header";
 import { useData } from "../data/data";
 
 export default function Home() {
@@ -10,7 +9,6 @@ export default function Home() {
   } = useData(2, 3);
   return (
     <>
-      <Header text="Lesson 3" />
       <VocabList
         title="Lesson Vocab"
         englishWords={englishVocab}
