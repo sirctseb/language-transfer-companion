@@ -25,42 +25,129 @@ const data: Data = {
       },
     ],
   ],
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "I want you to know.",
+      },
+      {
+        language: "greek",
+        word: "Θέλω να ξέρεις",
+        latinized: "thélo na kséris",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Do you want me to wait?",
+      },
+      {
+        language: "greek",
+        word: "Θέλεις να περιμένω;",
+        latinized: "thélis na periméno?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Are you waiting for me?",
+      },
+      {
+        language: "greek",
+        word: "Με περιμένεις;",
+        latinized: "me periménis?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I'm waiting for you.",
+      },
+      {
+        language: "greek",
+        word: "Σε περιμένω",
+        latinized: "se periméno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Do you want me to wait for you?",
+      },
+      {
+        language: "greek",
+        word: "Θέλεις να σε περιμένω;",
+        latinized: "thélis na se periméno?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Where do you want me to wait for you?",
+      },
+      {
+        language: "greek",
+        word: "Πού θέλεις να σε περιμένω;",
+        latinized: "pu thélis na se periméno?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don't want him to know where I'm staying.",
+      },
+      {
+        language: "greek",
+        word: "Δεν θέλω να ξέρει πού μένω",
+        latinized: "dhen thélo na kséri pu méno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "What are you doing here?",
+      },
+      {
+        language: "greek",
+        word: "Τι κάνεις εδώ;",
+        latinized: "ti kánis edhó?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I'm staying here.",
+      },
+      {
+        language: "greek",
+        word: "Μένω εδώ",
+        latinized: "méno edhó",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don't want to wait for you here.",
+      },
+      {
+        language: "greek",
+        word: "Δεν θέλω να σε περιμένω εδώ",
+        latinized: "dhen thélo na se periméno edhó",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I want you to wait for me here.",
+      },
+      {
+        language: "greek",
+        word: "Θέλω να με περιμένεις εδώ",
+        latinized: "thélo na me periménis edhó",
+      },
+    ],
+  ],
 };
 
-const practiceSentences = [
-  { english: "I want you to know.", greek: "Θέλω να ξέρεις [thélo na kséris]" },
-  {
-    english: "Do you want me to wait?",
-    greek: "Θέλεις να περιμένω; [thélis na periméno?]",
-  },
-  {
-    english: "Are you waiting for me?",
-    greek: "Με περιμένεις; [me periménis?]",
-  },
-  { english: "I'm waiting for you.", greek: "Σε περιμένω [se periméno]" },
-  {
-    english: "Do you want me to wait for you?",
-    greek: "Θέλεις να σε περιμένω; [thélis na se periméno?]",
-  },
-  {
-    english: "Where do you want me to wait for you?",
-    greek: "Πού θέλεις να σε περιμένω; [pu thélis na se periméno?]",
-  },
-  {
-    english: "I don't want him to know where I'm staying.",
-    greek: "Δεν θέλω να ξέρει πού μένω [dhen thélo na kséri pu méno]",
-  },
-  {
-    english: "What are you doing here?",
-    greek: "Τι κάνεις εδώ; [ti kánis edhó?]",
-  },
-  { english: "I'm staying here.", greek: "Μένω εδώ [méno edhó]" },
-  {
-    english: "I don't want to wait for you here.",
-    greek: "Δεν θέλω να σε περιμένω εδώ [dhen thélo na se periméno edhó]",
-  },
-  {
-    english: "I want you to wait for me here.",
-    greek: "Θέλω να με περιμένεις εδώ [thélo na me periménis edhó]",
-  },
-];
+export default data;

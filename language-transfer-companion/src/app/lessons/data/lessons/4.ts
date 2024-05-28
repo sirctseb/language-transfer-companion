@@ -102,41 +102,139 @@ const data: Data = {
       },
     ],
   ],
-  exercisePrompts: [
-    {
-      task: "english-to-greek",
-      prompts: [
-        "where do you stay?",
-        "where are you waiting for me?",
-        "why don't you wait for me?",
-        "why are you insisting?",
-        "what are you waiting for?",
-        "what are you doing?",
-        "how are you?",
-        "what are you doing now?",
-        // "*I* do",
-        "I don't know",
-        "Why don't you know?",
-        "You don't know me",
-      ],
-    },
-    {
-      task: "greek-to-english",
-      prompts: [
-        "που μένεις;",
-        "που με περιμένεις;",
-        "γιατί δεν με περιμένεις;",
-        "γιατί επιμένεις;",
-        "τι περιμένεις;",
-        "τι κάνεις;",
-        // "τι κάνεις;",
-        "τι κάνεις τώρα;",
-        "εγώ κάνω",
-        "δεν ξέρω",
-        "γιατί δεν ξέρεις;",
-        "δεν με ξέρεις",
-      ],
-    },
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "where do you stay?",
+      },
+      {
+        language: "greek",
+        word: "που μένεις;",
+        latinized: "pou méneis;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "where are you waiting for me?",
+      },
+      {
+        language: "greek",
+        word: "που με περιμένεις;",
+        latinized: "pou me periménis;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "why don't you wait for me?",
+      },
+      {
+        language: "greek",
+        word: "γιατί δεν με περιμένεις;",
+        latinized: "yatí dhen me periménis;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "why are you insisting?",
+      },
+      {
+        language: "greek",
+        word: "γιατί επιμένεις;",
+        latinized: "yatí epiménis;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "what are you waiting for?",
+      },
+      {
+        language: "greek",
+        word: "τι περιμένεις;",
+        latinized: "ti periménis;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "what are you doing?",
+      },
+      {
+        language: "greek",
+        word: "τι κάνεις;",
+        latinized: "ti kánis;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "how are you?",
+      },
+      {
+        language: "greek",
+        word: "τι κάνεις;",
+        latinized: "ti kánis;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "what are you doing now?",
+      },
+      {
+        language: "greek",
+        word: "τι κάνεις τώρα;",
+        latinized: "ti kánis tóra;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "*I* do",
+      },
+      {
+        language: "greek",
+        word: "εγώ κάνω",
+        latinized: "egó káno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don't know",
+      },
+      {
+        language: "greek",
+        word: "δεν ξέρω",
+        latinized: "dhen kséro",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Why don't you know?",
+      },
+      {
+        language: "greek",
+        word: "γιατί δεν ξέρεις;",
+        latinized: "yatí dhen kséris;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "You don't know me",
+      },
+      {
+        language: "greek",
+        word: "δεν με ξέρεις",
+        latinized: "dhen me kséris",
+      },
+    ],
   ],
 };
 

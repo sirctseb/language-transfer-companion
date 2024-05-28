@@ -55,61 +55,261 @@ const data: Data = {
       { language: "greek", word: "κλίμα", latinized: "klíma" },
     ],
   ],
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "I have the mobile phone.",
+      },
+      {
+        language: "greek",
+        word: "Έχω το κινητό",
+        latinized: "ékho to kinitó",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I have it.",
+      },
+      {
+        language: "greek",
+        word: "Το έχω",
+        latinized: "to ékho",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don’t have it.",
+      },
+      {
+        language: "greek",
+        word: "Δεν το έχω",
+        latinized: "dhen to ékho",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "He has. / She has. / It has.",
+      },
+      {
+        language: "greek",
+        word: "Έχει",
+        latinized: "échi",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "You have.",
+      },
+      {
+        language: "greek",
+        word: "Έχεις",
+        latinized: "échis",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "What do you have? / What’s wrong? / What’s up?",
+      },
+      {
+        language: "greek",
+        word: "Τι έχεις;",
+        latinized: "ti échis?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "What does he have? / What’s up with him? / What’s up with her?",
+      },
+      {
+        language: "greek",
+        word: "Τι έχει;",
+        latinized: "ti échi?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Do you have the car?",
+      },
+      {
+        language: "greek",
+        word: "Έχεις το αυτοκίνητο;",
+        latinized: "échis to aftokínito?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Do you have it?",
+      },
+      {
+        language: "greek",
+        word: "Το έχεις;",
+        latinized: "to échis?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Don’t you have it?",
+      },
+      {
+        language: "greek",
+        word: "Δεν το έχεις;",
+        latinized: "dhen to échis?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Where is it? / Where is he? / Where is she?",
+      },
+      {
+        language: "greek",
+        word: "Πού είναι;",
+        latinized: "pu íne?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Where is the car?",
+      },
+      {
+        language: "greek",
+        word: "Πού είναι το αυτοκίνητο;",
+        latinized: "pu íne to aftokínito?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don’t know where it is. / I don’t know where he is. / I don’t know where she is.",
+      },
+      {
+        language: "greek",
+        word: "Δεν ξέρω πού είναι",
+        latinized: "dhen kséro pu íne",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Do you know where the car is? / Do you know where is the car?",
+      },
+      {
+        language: "greek",
+        word: "Ξέρεις πού είναι το αυτοκίνητο;",
+        latinized: "kséris pu íne to aftokínito?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Don’t you know where she is?",
+      },
+      {
+        language: "greek",
+        word: "Δεν ξέρεις πού είναι;",
+        latinized: "dhen kséris pu íne?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "What’s wrong? / What’s the problem?",
+      },
+      {
+        language: "greek",
+        word: "Τι έχει;",
+        latinized: "ti échi?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I have the book.",
+      },
+      {
+        language: "greek",
+        word: "Έχω το βιβλίο",
+        latinized: "ékho to vivlío",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I have it.",
+      },
+      {
+        language: "greek",
+        word: "Το έχω",
+        latinized: "to ékho",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "System.",
+      },
+      {
+        language: "greek",
+        word: "Σύστημα",
+        latinized: "sístima",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Program.",
+      },
+      {
+        language: "greek",
+        word: "Πρόγραμμα",
+        latinized: "próghrama",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Diagram.",
+      },
+      {
+        language: "greek",
+        word: "Διάγραμμα",
+        latinized: "dhiághrama",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Aroma.",
+      },
+      {
+        language: "greek",
+        word: "Άρωμα",
+        latinized: "ároma",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Climate.",
+      },
+      {
+        language: "greek",
+        word: "Κλίμα",
+        latinized: "klíma",
+      },
+    ],
+  ],
 };
 
-const practiceSentences = [
-  {
-    english: "I have the mobile phone.",
-    greek: "Έχω το κινητό [ékho to kinitó]",
-  },
-  { english: "I have it.", greek: "Το έχω [to ékho]" },
-  { english: "I don’t have it.", greek: "Δεν το έχω [dhen to ékho]" },
-  { english: "He has. / She has. / It has.", greek: "Έχει [échi]" },
-  { english: "You have.", greek: "Έχεις [échis]" },
-  {
-    english: "What do you have? / What’s wrong? / What’s up?",
-    greek: "Τι έχεις; [ti échis?]",
-  },
-  {
-    english: "What does he have? / What’s up with him? / What’s up with her?",
-    greek: "Τι έχει; [ti échi?]",
-  },
-  {
-    english: "Do you have the car?",
-    greek: "Έχεις το αυτοκίνητο; [échis to aftokínito?]",
-  },
-  { english: "Do you have it?", greek: "Το έχεις; [to échis?]" },
-  { english: "Don’t you have it?", greek: "Δεν το έχεις; [dhen to échis?]" },
-  {
-    english: "Where is it? / Where is he? / Where is she?",
-    greek: "Πού είναι; [pu íne?]",
-  },
-  {
-    english: "Where is the car?",
-    greek: "Πού είναι το αυτοκίνητο; [pu íne to aftokínito?]",
-  },
-  {
-    english:
-      "I don’t know where it is. / I don’t know where he is. / I don’t know where she is.",
-    greek: "Δεν ξέρω πού είναι [dhen kséro pu íne]",
-  },
-  {
-    english: "Do you know where the car is? / Do you know where is the car?",
-    greek: "Ξέρεις πού είναι το αυτοκίνητο; [kséris pu íne to aftokínito?]",
-  },
-  {
-    english: "Don’t you know where she is?",
-    greek: "Δεν ξέρεις πού είναι; [dhen kséris pu íne?]",
-  },
-  {
-    english: "What’s wrong? / What’s the problem?",
-    greek: "Τι έχει; [ti échi?]",
-  },
-  { english: "I have the book.", greek: "Έχω το βιβλίο [ékho to vivlío]" },
-  { english: "I have it.", greek: "Το έχω [to ékho]" },
-  { english: "System.", greek: "Σύστημα [sístima]" },
-  { english: "Program.", greek: "Πρόγραμμα [próghrama]" },
-  { english: "Diagram.", greek: "Διάγραμμα [dhiághrama]" },
-  { english: "Aroma.", greek: "Άρωμα [ároma]" },
-  { english: "Climate.", greek: "Κλίμα [klíma]" },
-];
+export default data;

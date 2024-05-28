@@ -25,30 +25,97 @@ const data: Data = {
       },
     ],
   ],
+
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "I want the mobile phone.",
+      },
+      {
+        language: "greek",
+        word: "Θέλω το κινητό",
+        latinized: "thélo to kinitó",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Don't you want the mobile?",
+      },
+      {
+        language: "greek",
+        word: "Δεν θέλεις το κινητό;",
+        latinized: "dhen thélis to kinitó?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I want it.",
+      },
+      {
+        language: "greek",
+        word: "Το θέλω",
+        latinized: "to thélo",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don't want it.",
+      },
+      {
+        language: "greek",
+        word: "Δεν το θέλω",
+        latinized: "dhen to thélo",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I'm doing it. / I'm making it.",
+      },
+      {
+        language: "greek",
+        word: "Το κάνω",
+        latinized: "to káno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I want to do it. / I want to make it.",
+      },
+      {
+        language: "greek",
+        word: "Θέλω να το κάνω",
+        latinized: "thélo na to káno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I want you to do it. / I want you to make it.",
+      },
+      {
+        language: "greek",
+        word: "Θέλω να το κάνεις",
+        latinized: "thélo na to kánis",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don't want you to do it here.",
+      },
+      {
+        language: "greek",
+        word: "Δεν θέλω να το κάνεις εδώ",
+        latinized: "dhen thélo na to kánis edhó",
+      },
+    ],
+  ],
 };
 
-const practiceSentences = [
-  {
-    english: "I want the mobile phone.",
-    greek: "Θέλω το κινητό [thélo to kinitó]",
-  },
-  {
-    english: "Don't you want the mobile?",
-    greek: "Δεν θέλεις το κινητό; [dhen thélis to kinitó?]",
-  },
-  { english: "I want it.", greek: "Το θέλω [to thélo]" },
-  { english: "I don't want it.", greek: "Δεν το θέλω [dhen to thélo]" },
-  { english: "I'm doing it. / I'm making it.", greek: "Το κάνω [to káno]" },
-  {
-    english: "I want to do it. / I want to make it.",
-    greek: "Θέλω να το κάνω [thélo na to káno]",
-  },
-  {
-    english: "I want you to do it. / I want you to make it.",
-    greek: "Θέλω να το κάνεις [thélo na to kánis]",
-  },
-  {
-    english: "I don't want you to do it here.",
-    greek: "Δεν θέλω να το κάνεις εδώ [dhen thélo na to kánis edhó]",
-  },
-];
+export default data;

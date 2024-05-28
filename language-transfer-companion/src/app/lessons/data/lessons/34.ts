@@ -69,95 +69,96 @@ const data: Data = {
       },
     ],
   ],
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "They want.",
+      },
+      {
+        language: "greek",
+        word: "Αυτές θέλουν.",
+        latinized: "Aftés thélun",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "We don’t want but they do.",
+      },
+      {
+        language: "greek",
+        word: "Εμείς δεν θέλουμε αλλά αυτές θέλουν.",
+        latinized: "Emís dhen thélume alá aftés thélun",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "She is.",
+      },
+      {
+        language: "greek",
+        word: "Αυτή είναι.",
+        latinized: "Aftí íne",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "They are there.",
+      },
+      {
+        language: "greek",
+        word: "Αυτές είναι εκεί.",
+        latinized: "Aftés íne ekí",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Those females are doing it.",
+      },
+      {
+        language: "greek",
+        word: "Εκείνες το κάνουν.",
+        latinized: "Ekínes to kánun",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "The days.",
+      },
+      {
+        language: "greek",
+        word: "Οι μέρες.",
+        latinized: "I méres",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Those days.",
+      },
+      {
+        language: "greek",
+        word: "Εκείνες οι μέρες.",
+        latinized: "Ekínes i méres",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "These days.",
+      },
+      {
+        language: "greek",
+        word: "Αυτές οι μέρες.",
+        latinized: "Aftés i méres",
+      },
+    ],
+  ],
 };
 
-const exampleSentences = [
-  [
-    {
-      language: "english",
-      word: "They want.",
-    },
-    {
-      language: "greek",
-      word: "Αυτές θέλουν.",
-      latinized: "Aftés thélun",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "We don’t want but they do.",
-    },
-    {
-      language: "greek",
-      word: "Εμείς δεν θέλουμε αλλά αυτές θέλουν.",
-      latinized: "Emís dhen thélume alá aftés thélun",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "She is.",
-    },
-    {
-      language: "greek",
-      word: "Αυτή είναι.",
-      latinized: "Aftí íne",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "They are there.",
-    },
-    {
-      language: "greek",
-      word: "Αυτές είναι εκεί.",
-      latinized: "Aftés íne ekí",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Those females are doing it.",
-    },
-    {
-      language: "greek",
-      word: "Εκείνες το κάνουν.",
-      latinized: "Ekínes to kánun",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "The days.",
-    },
-    {
-      language: "greek",
-      word: "Οι μέρες.",
-      latinized: "I méres",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Those days.",
-    },
-    {
-      language: "greek",
-      word: "Εκείνες οι μέρες.",
-      latinized: "Ekínes i méres",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "These days.",
-    },
-    {
-      language: "greek",
-      word: "Αυτές οι μέρες.",
-      latinized: "Aftés i méres",
-    },
-  ],
-];
+export default data;

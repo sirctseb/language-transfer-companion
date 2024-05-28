@@ -102,95 +102,96 @@ const data: Data = {
       },
     ],
   ],
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "I will work tomorrow.",
+      },
+      {
+        language: "greek",
+        word: "Θα δουλέψω αύριο.",
+        latinized: "Tha dhulépso ávrio.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Maybe it will work.",
+      },
+      {
+        language: "greek",
+        word: "Μπορεί να δουλέψει.",
+        latinized: "Borí na dhulépsi.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Maybe it works.",
+      },
+      {
+        language: "greek",
+        word: "Μπορεί να δουλεύει.",
+        latinized: "Borí na dhulévi.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Still I want to work.",
+      },
+      {
+        language: "greek",
+        word: "Ακόμα θέλω να δουλεύω.",
+        latinized: "Akóma thélo na dhulévo.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "A fish.",
+      },
+      {
+        language: "greek",
+        word: "Ένα ψάρι.",
+        latinized: "Éna psári.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I fish.",
+      },
+      {
+        language: "greek",
+        word: "Ψαρεύω.",
+        latinized: "Psarévo.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "A plant.",
+      },
+      {
+        language: "greek",
+        word: "Ένα φυτό.",
+        latinized: "Éna fitó.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I plant.",
+      },
+      {
+        language: "greek",
+        word: "Φυτεύω.",
+        latinized: "Fitévo.",
+      },
+    ],
+  ],
 };
 
-const exampleSentences = [
-  [
-    {
-      language: "english",
-      word: "I will work tomorrow.",
-    },
-    {
-      language: "greek",
-      word: "Θα δουλέψω αύριο.",
-      latinized: "Tha dhulépso ávrio.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Maybe it will work.",
-    },
-    {
-      language: "greek",
-      word: "Μπορεί να δουλέψει.",
-      latinized: "Borí na dhulépsi.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Maybe it works.",
-    },
-    {
-      language: "greek",
-      word: "Μπορεί να δουλεύει.",
-      latinized: "Borí na dhulévi.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Still I want to work.",
-    },
-    {
-      language: "greek",
-      word: "Ακόμα θέλω να δουλεύω.",
-      latinized: "Akóma thélo na dhulévo.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "A fish.",
-    },
-    {
-      language: "greek",
-      word: "Ένα ψάρι.",
-      latinized: "Éna psári.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "I fish.",
-    },
-    {
-      language: "greek",
-      word: "Ψαρεύω.",
-      latinized: "Psarévo.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "A plant.",
-    },
-    {
-      language: "greek",
-      word: "Ένα φυτό.",
-      latinized: "Éna fitó.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "I plant.",
-    },
-    {
-      language: "greek",
-      word: "Φυτεύω.",
-      latinized: "Fitévo.",
-    },
-  ],
-];
+export default data;

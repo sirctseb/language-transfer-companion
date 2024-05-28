@@ -47,37 +47,117 @@ const data: Data = {
       },
     ],
   ],
-  exercisePrompts: [
-    {
-      task: "english-to-greek",
-      prompts: [
-        "where does he stay?",
-        "where does she live?",
-        "where is he waiting?",
-        "where is she waiting for me?",
-        "I insist",
-        "why is he staying?",
-        "why is she insisting?",
-        "why is he waiting for me?",
-        "why isn't she waiting for me?",
-        "what is he waiting for?",
-      ],
-    },
-    {
-      task: "greek-to-english",
-      prompts: [
-        "που μένει;",
-        // "που μένει;",
-        "που περιμένει;",
-        "που με περιμένει;",
-        "επιμένω",
-        "γιατί μένει;",
-        "γιατί επιμένει;",
-        "γιατί με περιμένει;",
-        "γιατί δεν με περιμένει;",
-        "τι περιμένει;",
-      ],
-    },
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "where does he stay?",
+      },
+      {
+        language: "greek",
+        word: "που μένει;",
+        latinized: "pou ménei;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "where does she live?",
+      },
+      {
+        language: "greek",
+        word: "που μένει;",
+        latinized: "pou ménei;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "where is he waiting?",
+      },
+      {
+        language: "greek",
+        word: "που περιμένει;",
+        latinized: "pou periménei;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "where is she waiting for me?",
+      },
+      {
+        language: "greek",
+        word: "που με περιμένει;",
+        latinized: "pou me periménei;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I insist",
+      },
+      {
+        language: "greek",
+        word: "επιμένω",
+        latinized: "epiméno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "why is he staying?",
+      },
+      {
+        language: "greek",
+        word: "γιατί μένει;",
+        latinized: "giatí ménei;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "why is she insisting?",
+      },
+      {
+        language: "greek",
+        word: "γιατί επιμένει;",
+        latinized: "giatí epiménei;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "why is he waiting for me?",
+      },
+      {
+        language: "greek",
+        word: "γιατί με περιμένει;",
+        latinized: "giatí me periménei;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "why isn't she waiting for me?",
+      },
+      {
+        language: "greek",
+        word: "γιατί δεν με περιμένει;",
+        latinized: "giatí dhen me periménei;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "what is he waiting for?",
+      },
+      {
+        language: "greek",
+        word: "τι περιμένει;",
+        latinized: "ti periménei;",
+      },
+    ],
   ],
 };
 

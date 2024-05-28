@@ -80,84 +80,85 @@ const data: Data = {
       },
     ],
   ],
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "I will write.",
+      },
+      {
+        language: "greek",
+        word: "Θα γράψω.",
+        latinized: "Tha ghrápso.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I will be writing still.",
+      },
+      {
+        language: "greek",
+        word: "Θα γράφω ακόμα.",
+        latinized: "Tha ghráfo akóma.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I can’t come back.",
+      },
+      {
+        language: "greek",
+        word: "Δεν μπορώ να επιστρέψω.",
+        latinized: "Dhen boró na epistrépso.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I can’t come back at 5 o’clock generally.",
+      },
+      {
+        language: "greek",
+        word: "Γενικά δεν μπορώ να επιστρέφω η ώρα πέντε.",
+        latinized: "Yeniká dhen boró na epistréfo i óra pénde.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "But today I can come back.",
+      },
+      {
+        language: "greek",
+        word: "Αλλά σήμερα μπορώ να επιστρέψω.",
+        latinized: "Alá símera boró na epistrépso.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Maybe he’s still coming back.",
+      },
+      {
+        language: "greek",
+        word: "Μπορεί να επιστρέφει ακόμα.",
+        latinized: "Borí na epistréfi akóma.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Maybe he will still return.",
+      },
+      {
+        language: "greek",
+        word: "Μπορεί να επιστρέψει ακόμα.",
+        latinized: "Borí na epistrépsei akóma.",
+      },
+    ],
+  ],
 };
 
-const exampleSentences = [
-  [
-    {
-      language: "english",
-      word: "I will write.",
-    },
-    {
-      language: "greek",
-      word: "Θα γράψω.",
-      latinized: "Tha ghrápso.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "I will be writing still.",
-    },
-    {
-      language: "greek",
-      word: "Θα γράφω ακόμα.",
-      latinized: "Tha ghráfo akóma.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "I can’t come back.",
-    },
-    {
-      language: "greek",
-      word: "Δεν μπορώ να επιστρέψω.",
-      latinized: "Dhen boró na epistrépso.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "I can’t come back at 5 o’clock generally.",
-    },
-    {
-      language: "greek",
-      word: "Γενικά δεν μπορώ να επιστρέφω η ώρα πέντε.",
-      latinized: "Yeniká dhen boró na epistréfo i óra pénde.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "But today I can come back.",
-    },
-    {
-      language: "greek",
-      word: "Αλλά σήμερα μπορώ να επιστρέψω.",
-      latinized: "Alá símera boró na epistrépso.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Maybe he’s still coming back.",
-    },
-    {
-      language: "greek",
-      word: "Μπορεί να επιστρέφει ακόμα.",
-      latinized: "Borí na epistréfi akóma.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Maybe he will still return.",
-    },
-    {
-      language: "greek",
-      word: "Μπορεί να επιστρέψει ακόμα.",
-      latinized: "Borí na epistrépsei akóma.",
-    },
-  ],
-];
+export default data;

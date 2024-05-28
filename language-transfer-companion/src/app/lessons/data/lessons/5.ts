@@ -33,76 +33,181 @@ const data: Data = {
       },
     ],
   ],
-  exercisePrompts: [
-    {
-      task: "english-to-greek",
-      prompts: ["Don't you know where he's staying?"],
-    },
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "Don't you know where he’s staying?",
+      },
+      {
+        language: "greek",
+        word: "Δεν ξέρεις πού μένει;",
+        latinized: "dhen kséris pu méni?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Don’t you know where he’s waiting for me?",
+      },
+      {
+        language: "greek",
+        word: "Δεν ξέρεις πού με περιμένει; ",
+        latinized: "dhen kséris pu me periméni?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Doesn’t he know why you’re staying?",
+      },
+      {
+        language: "greek",
+        word: "Δεν ξέρει γιατί μένεις; ",
+        latinized: "dhen kséri yatí ménis?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don’t know what you’re waiting for.",
+      },
+      {
+        language: "greek",
+        word: "Δεν ξέρω τι περιμένεις ",
+        latinized: "dhen kséro ti periménis",
+      },
+    ],
+    [
+      { language: "english", word: "I want to know." },
+      {
+        language: "greek",
+        word: "Θέλω να ξέρω ",
+        latinized: "thélo na kséro",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don’t want to know.",
+      },
+      {
+        language: "greek",
+        word: "Δεν θέλω να ξέρω ",
+        latinized: "dhen thélo na kséro",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "You want to know.",
+      },
+      {
+        language: "greek",
+        word: "Θέλεις να ξέρεις ",
+        latinized: "thélis na kséris",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Do you want to know?",
+      },
+      {
+        language: "greek",
+        word: "Θέλεις να ξέρεις; ",
+        latinized: "thélis na kséris?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Don’t you want to know?",
+      },
+      {
+        language: "greek",
+        word: "Δεν θέλεις να ξέρεις; ",
+        latinized: "dhen thélis na kséris?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Why don’t you want to know?",
+      },
+      {
+        language: "greek",
+        word: "Γιατί δεν θέλεις να ξέρεις; ",
+        latinized: "yatí dhen thélis na kséris?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "What do you want to know?",
+      },
+      {
+        language: "greek",
+        word: "Τι θέλεις να ξέρεις; ",
+        latinized: "ti thélis na kséris?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "He wants to know where I’m staying.",
+      },
+      {
+        language: "greek",
+        word: "Θέλει να ξέρει πού μένω ",
+        latinized: "théli na kséri pu méno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "She wants to know why you’re not waiting for me.",
+      },
+      {
+        language: "greek",
+        word: "Θέλει να ξέρει γιατί δεν με περιμένεις ",
+        latinized: "théli na kséri yatí dhen me periménis",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don’t want to wait.",
+      },
+      {
+        language: "greek",
+        word: "Δεν θέλω να περιμένω ",
+        latinized: "dhen thélo na periméno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Don’t you want to wait for me?",
+      },
+      {
+        language: "greek",
+        word: "Δεν θέλεις να με περιμένεις; ",
+        latinized: "dhen thélis na me periménis?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Why don’t you want to wait for me?",
+      },
+      {
+        language: "greek",
+        word: "Γιατί δεν θέλεις να με περιμένεις; ",
+        latinized: "yatí dhen thélis na me periménis?",
+      },
+    ],
   ],
 };
 
-const prompts = [
-  {
-    english: "Don't you know where he’s staying?",
-    greek: "Δεν ξέρεις πού μένει; [dhen kséris pu méni?]",
-  },
-  {
-    english: "Don’t you know where he’s waiting for me?",
-    greek: "Δεν ξέρεις πού με περιμένει; [dhen kséris pu me periméni?]",
-  },
-  {
-    english: "Doesn’t he know why you’re staying?",
-    greek: "Δεν ξέρει γιατί μένεις; [dhen kséri yatí ménis?]",
-  },
-  {
-    english: "I don’t know what you’re waiting for.",
-    greek: "Δεν ξέρω τι περιμένεις [dhen kséro ti periménis]",
-  },
-  { english: "I want to know.", greek: "Θέλω να ξέρω [thélo na kséro]" },
-  {
-    english: "I don’t want to know.",
-    greek: "Δεν θέλω να ξέρω [dhen thélo na kséro]",
-  },
-  {
-    english: "You want to know.",
-    greek: "Θέλεις να ξέρεις [thélis na kséris]",
-  },
-  {
-    english: "Do you want to know?",
-    greek: "Θέλεις να ξέρεις; [thélis na kséris?]",
-  },
-  {
-    english: "Don’t you want to know?",
-    greek: "Δεν θέλεις να ξέρεις; [dhen thélis na kséris?]",
-  },
-  {
-    english: "Why don’t you want to know?",
-    greek: "Γιατί δεν θέλεις να ξέρεις; [yatí dhen thélis na kséris?]",
-  },
-  {
-    english: "What do you want to know?",
-    greek: "Τι θέλεις να ξέρεις; [ti thélis na kséris?]",
-  },
-  {
-    english: "He wants to know where I’m staying.",
-    greek: "Θέλει να ξέρει πού μένω [théli na kséri pu méno]",
-  },
-  {
-    english: "She wants to know why you’re not waiting for me.",
-    greek:
-      "Θέλει να ξέρει γιατί δεν με περιμένεις [théli na kséri yatí dhen me periménis]",
-  },
-  {
-    english: "I don’t want to wait.",
-    greek: "Δεν θέλω να περιμένω [dhen thélo na periméno]",
-  },
-  {
-    english: "Don’t you want to wait for me?",
-    greek: "Δεν θέλεις να με περιμένεις; [dhen thélis na me periménis?]",
-  },
-  {
-    english: "Why don’t you want to wait for me?",
-    greek:
-      "Γιατί δεν θέλεις να με περιμένεις; [yatí dhen thélis na me periménis?]",
-  },
-];
+export default data;

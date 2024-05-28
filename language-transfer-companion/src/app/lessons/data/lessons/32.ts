@@ -179,128 +179,129 @@ const data: Data = {
       },
     ],
   ],
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "Where is your child?",
+      },
+      {
+        language: "greek",
+        word: "Πού είναι το παιδί σου;",
+        latinized: "Pu íne to pedhí su?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "He will still be playing.",
+      },
+      {
+        language: "greek",
+        word: "Θα παίζει ακόμα.",
+        latinized: "Tha pézi akóma.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "The children want it.",
+      },
+      {
+        language: "greek",
+        word: "Τα παιδιά το θέλουν.",
+        latinized: "Ta pedhiá to thélun.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "The children want them.",
+      },
+      {
+        language: "greek",
+        word: "Τα παιδιά τα θέλουν.",
+        latinized: "Ta pedhiá ta thélun.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "The children are playing.",
+      },
+      {
+        language: "greek",
+        word: "Τα παιδιά παίζουν.",
+        latinized: "Ta pedhiá pézun.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "The children want to play.",
+      },
+      {
+        language: "greek",
+        word: "Τα παιδιά θέλουν να παίξουν.",
+        latinized: "Ta pedhiá thélun na péksun.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Children want to play.",
+      },
+      {
+        language: "greek",
+        word: "Τα παιδιά θέλουν να παίζουν.",
+        latinized: "Ta pedhiá thélun na pézun.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "The other guy will change it.",
+      },
+      {
+        language: "greek",
+        word: "Ο άλλος θα το αλλάξει.",
+        latinized: "O álos tha to aláksi.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "The other guy won't change it.",
+      },
+      {
+        language: "greek",
+        word: "Ο άλλος δεν θα το αλλάξει.",
+        latinized: "O álos dhen tha to aláksi.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Maybe they are changing it.",
+      },
+      {
+        language: "greek",
+        word: "Μπορεί να το αλλάζουν.",
+        latinized: "Borí na to alázun.",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Maybe they will change it soon.",
+      },
+      {
+        language: "greek",
+        word: "Μπορεί να το αλλάξουν σύντομα.",
+        latinized: "Borí na to aláksun síndoma.",
+      },
+    ],
+  ],
 };
 
-const exampleSentences = [
-  [
-    {
-      language: "english",
-      word: "Where is your child?",
-    },
-    {
-      language: "greek",
-      word: "Πού είναι το παιδί σου;",
-      latinized: "Pu íne to pedhí su?",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "He will still be playing.",
-    },
-    {
-      language: "greek",
-      word: "Θα παίζει ακόμα.",
-      latinized: "Tha pézi akóma.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "The children want it.",
-    },
-    {
-      language: "greek",
-      word: "Τα παιδιά το θέλουν.",
-      latinized: "Ta pedhiá to thélun.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "The children want them.",
-    },
-    {
-      language: "greek",
-      word: "Τα παιδιά τα θέλουν.",
-      latinized: "Ta pedhiá ta thélun.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "The children are playing.",
-    },
-    {
-      language: "greek",
-      word: "Τα παιδιά παίζουν.",
-      latinized: "Ta pedhiá pézun.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "The children want to play.",
-    },
-    {
-      language: "greek",
-      word: "Τα παιδιά θέλουν να παίξουν.",
-      latinized: "Ta pedhiá thélun na péksun.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Children want to play.",
-    },
-    {
-      language: "greek",
-      word: "Τα παιδιά θέλουν να παίζουν.",
-      latinized: "Ta pedhiá thélun na pézun.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "The other guy will change it.",
-    },
-    {
-      language: "greek",
-      word: "Ο άλλος θα το αλλάξει.",
-      latinized: "O álos tha to aláksi.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "The other guy won't change it.",
-    },
-    {
-      language: "greek",
-      word: "Ο άλλος δεν θα το αλλάξει.",
-      latinized: "O álos dhen tha to aláksi.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Maybe they are changing it.",
-    },
-    {
-      language: "greek",
-      word: "Μπορεί να το αλλάζουν.",
-      latinized: "Borí na to alázun.",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Maybe they will change it soon.",
-    },
-    {
-      language: "greek",
-      word: "Μπορεί να το αλλάξουν σύντομα.",
-      latinized: "Borí na to aláksun síndoma.",
-    },
-  ],
-];
+export default data;

@@ -23,83 +23,84 @@ const data: Data = {
       { language: "greek", word: "αύριο", latinized: "ávrio" },
     ],
   ],
+  exercises: [
+    [
+      { language: "english", word: "It is this turning." },
+      {
+        language: "greek",
+        word: "Είναι αυτή η στροφή.",
+        latinized: "Íne aftí i strofí",
+      },
+    ],
+    [
+      { language: "english", word: "We are returning." },
+      { language: "greek", word: "Επιστρέφουμε.", latinized: "Epistréfume" },
+    ],
+    [
+      { language: "english", word: "My friend is waiting for me." },
+      {
+        language: "greek",
+        word: "Ο φίλος μου με περιμένει.",
+        latinized: "O fílos mu me periméni",
+      },
+    ],
+    [
+      { language: "english", word: "My friend is bringing it." },
+      {
+        language: "greek",
+        word: "Ο φίλος μου το φέρνει.",
+        latinized: "O fílos mu to férni",
+      },
+    ],
+    [
+      { language: "english", word: "My female friend is waiting for me." },
+      {
+        language: "greek",
+        word: "Η φίλη μου με περιμένει.",
+        latinized: "I fíli mu me periméni",
+      },
+    ],
+    [
+      { language: "english", word: "My friend is returning tomorrow." },
+      {
+        language: "greek",
+        word: "Η φίλη μου επιστρέφει αύριο.",
+        latinized: "I fíli mu epistréfi ávrio",
+      },
+    ],
+    [
+      { language: "english", word: "My friend is not returning tomorrow." },
+      {
+        language: "greek",
+        word: "Ο φίλος μου δεν επιστρέφει αύριο.",
+        latinized: "O fílos mu dhen epistréfi ávrio",
+      },
+    ],
+    [
+      { language: "english", word: "Where is your friend?" },
+      {
+        language: "greek",
+        word: "Πού είναι ο φίλος σου;",
+        latinized: "Pu íne o fílos su?",
+      },
+    ],
+    [
+      { language: "english", word: "Is your female friend bringing it?" },
+      {
+        language: "greek",
+        word: "Η φίλη σου το φέρνει;",
+        latinized: "I fíli su to férni?",
+      },
+    ],
+    [
+      { language: "english", word: "Isn't your friend bringing it?" },
+      {
+        language: "greek",
+        word: "Δεν το φέρνει η φίλη σου;",
+        latinized: "Dhen to férni i fíli su?",
+      },
+    ],
+  ],
 };
 
-const exampleSentences = [
-  [
-    { language: "english", word: "It is this turning." },
-    {
-      language: "greek",
-      word: "Είναι αυτή η στροφή.",
-      latinized: "Íne aftí i strofí",
-    },
-  ],
-  [
-    { language: "english", word: "We are returning." },
-    { language: "greek", word: "Επιστρέφουμε.", latinized: "Epistréfume" },
-  ],
-  [
-    { language: "english", word: "My friend is waiting for me." },
-    {
-      language: "greek",
-      word: "Ο φίλος μου με περιμένει.",
-      latinized: "O fílos mu me periméni",
-    },
-  ],
-  [
-    { language: "english", word: "My friend is bringing it." },
-    {
-      language: "greek",
-      word: "Ο φίλος μου το φέρνει.",
-      latinized: "O fílos mu to férni",
-    },
-  ],
-  [
-    { language: "english", word: "My female friend is waiting for me." },
-    {
-      language: "greek",
-      word: "Η φίλη μου με περιμένει.",
-      latinized: "I fíli mu me periméni",
-    },
-  ],
-  [
-    { language: "english", word: "My friend is returning tomorrow." },
-    {
-      language: "greek",
-      word: "Η φίλη μου επιστρέφει αύριο.",
-      latinized: "I fíli mu epistréfi ávrio",
-    },
-  ],
-  [
-    { language: "english", word: "My friend is not returning tomorrow." },
-    {
-      language: "greek",
-      word: "Ο φίλος μου δεν επιστρέφει αύριο.",
-      latinized: "O fílos mu dhen epistréfi ávrio",
-    },
-  ],
-  [
-    { language: "english", word: "Where is your friend?" },
-    {
-      language: "greek",
-      word: "Πού είναι ο φίλος σου;",
-      latinized: "Pu íne o fílos su?",
-    },
-  ],
-  [
-    { language: "english", word: "Is your female friend bringing it?" },
-    {
-      language: "greek",
-      word: "Η φίλη σου το φέρνει;",
-      latinized: "I fíli su to férni?",
-    },
-  ],
-  [
-    { language: "english", word: "Isn't your friend bringing it?" },
-    {
-      language: "greek",
-      word: "Δεν το φέρνει η φίλη σου;",
-      latinized: "Dhen to férni i fíli su?",
-    },
-  ],
-];
+export default data;

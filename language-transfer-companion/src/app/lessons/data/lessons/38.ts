@@ -69,150 +69,151 @@ const data: Data = {
       },
     ],
   ],
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "We will see.",
+      },
+      {
+        language: "greek",
+        word: "Θα δούμε.",
+        latinized: "Tha dhúme",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don’t want them to see me.",
+      },
+      {
+        language: "greek",
+        word: "Δεν θέλω να με δουν.",
+        latinized: "Dhen thélo na me dhun",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Have you seen it?",
+      },
+      {
+        language: "greek",
+        word: "Το έχεις δει;",
+        latinized: "To échis dhi?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Have you seen them?",
+      },
+      {
+        language: "greek",
+        word: "Τα έχεις δει;",
+        latinized: "Ta échis dhi?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Have you seen him?",
+      },
+      {
+        language: "greek",
+        word: "Τον έχεις δει;",
+        latinized: "Ton échis dhi?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Have you seen her?",
+      },
+      {
+        language: "greek",
+        word: "Την έχεις δει;",
+        latinized: "Tin échis dhi?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I don’t want to eat.",
+      },
+      {
+        language: "greek",
+        word: "Δεν θέλω να φάω.",
+        latinized: "Dhen thélo na fáo",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "What shall I eat?",
+      },
+      {
+        language: "greek",
+        word: "Τι να φάω;",
+        latinized: "Ti na fáo?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "What shall we eat?",
+      },
+      {
+        language: "greek",
+        word: "Τι να φάμε;",
+        latinized: "Ti na fáme?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Let’s eat.",
+      },
+      {
+        language: "greek",
+        word: "Να φάμε.",
+        latinized: "Na fáme",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Come to eat.",
+      },
+      {
+        language: "greek",
+        word: "Έλα να φας.",
+        latinized: "Éla na fas",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Come to see.",
+      },
+      {
+        language: "greek",
+        word: "Έλα να δεις.",
+        latinized: "Éla na dhis",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Come and see us.",
+      },
+      {
+        language: "greek",
+        word: "Έλα να μας δεις.",
+        latinized: "Éla na mas dhis",
+      },
+    ],
+  ],
 };
 
-const exampleSentences = [
-  [
-    {
-      language: "english",
-      word: "We will see.",
-    },
-    {
-      language: "greek",
-      word: "Θα δούμε.",
-      latinized: "Tha dhúme",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "I don’t want them to see me.",
-    },
-    {
-      language: "greek",
-      word: "Δεν θέλω να με δουν.",
-      latinized: "Dhen thélo na me dhun",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Have you seen it?",
-    },
-    {
-      language: "greek",
-      word: "Το έχεις δει;",
-      latinized: "To échis dhi?",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Have you seen them?",
-    },
-    {
-      language: "greek",
-      word: "Τα έχεις δει;",
-      latinized: "Ta échis dhi?",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Have you seen him?",
-    },
-    {
-      language: "greek",
-      word: "Τον έχεις δει;",
-      latinized: "Ton échis dhi?",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Have you seen her?",
-    },
-    {
-      language: "greek",
-      word: "Την έχεις δει;",
-      latinized: "Tin échis dhi?",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "I don’t want to eat.",
-    },
-    {
-      language: "greek",
-      word: "Δεν θέλω να φάω.",
-      latinized: "Dhen thélo na fáo",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "What shall I eat?",
-    },
-    {
-      language: "greek",
-      word: "Τι να φάω;",
-      latinized: "Ti na fáo?",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "What shall we eat?",
-    },
-    {
-      language: "greek",
-      word: "Τι να φάμε;",
-      latinized: "Ti na fáme?",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Let’s eat.",
-    },
-    {
-      language: "greek",
-      word: "Να φάμε.",
-      latinized: "Na fáme",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Come to eat.",
-    },
-    {
-      language: "greek",
-      word: "Έλα να φας.",
-      latinized: "Éla na fas",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Come to see.",
-    },
-    {
-      language: "greek",
-      word: "Έλα να δεις.",
-      latinized: "Éla na dhis",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Come and see us.",
-    },
-    {
-      language: "greek",
-      word: "Έλα να μας δεις.",
-      latinized: "Éla na mas dhis",
-    },
-  ],
-];
+export default data;

@@ -124,117 +124,118 @@ const data: Data = {
       },
     ],
   ],
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "They are finishing, not us.",
+      },
+      {
+        language: "greek",
+        word: "Αυτοί τελειώνουν, όχι εμείς.",
+        latinized: "Aftí teliónun, óchi emís",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "The roads.",
+      },
+      {
+        language: "greek",
+        word: "Οι δρόμοι.",
+        latinized: "I dhrómi",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "These roads.",
+      },
+      {
+        language: "greek",
+        word: "Αυτοί οι δρόμοι.",
+        latinized: "Aftí i dhrómi",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Those roads.",
+      },
+      {
+        language: "greek",
+        word: "Εκείνοι οι δρόμοι.",
+        latinized: "Ekíni i dhrómi",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "When are they arriving?",
+      },
+      {
+        language: "greek",
+        word: "Πότε φτάνουν αυτοί;",
+        latinized: "Póte ftánun aftí?",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Other worlds.",
+      },
+      {
+        language: "greek",
+        word: "Άλλοι κόσμοι.",
+        latinized: "Áli kózmi",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "He wants.",
+      },
+      {
+        language: "greek",
+        word: "Αυτός θέλει.",
+        latinized: "Aftós théli",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "They want (masculine or mixed group).",
+      },
+      {
+        language: "greek",
+        word: "Αυτοί θέλουν.",
+        latinized: "Aftí thélun",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "She wants.",
+      },
+      {
+        language: "greek",
+        word: "Αυτή θέλει.",
+        latinized: "Aftí théli",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "They want (feminine group).",
+      },
+      {
+        language: "greek",
+        word: "Αυτές θέλουν.",
+        latinized: "Aftés thélun",
+      },
+    ],
+  ],
 };
 
-const exampleSentences = [
-  [
-    {
-      language: "english",
-      word: "They are finishing, not us.",
-    },
-    {
-      language: "greek",
-      word: "Αυτοί τελειώνουν, όχι εμείς.",
-      latinized: "Aftí teliónun, óchi emís",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "The roads.",
-    },
-    {
-      language: "greek",
-      word: "Οι δρόμοι.",
-      latinized: "I dhrómi",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "These roads.",
-    },
-    {
-      language: "greek",
-      word: "Αυτοί οι δρόμοι.",
-      latinized: "Aftí i dhrómi",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Those roads.",
-    },
-    {
-      language: "greek",
-      word: "Εκείνοι οι δρόμοι.",
-      latinized: "Ekíni i dhrómi",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "When are they arriving?",
-    },
-    {
-      language: "greek",
-      word: "Πότε φτάνουν αυτοί;",
-      latinized: "Póte ftánun aftí?",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "Other worlds.",
-    },
-    {
-      language: "greek",
-      word: "Άλλοι κόσμοι.",
-      latinized: "Áli kózmi",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "He wants.",
-    },
-    {
-      language: "greek",
-      word: "Αυτός θέλει.",
-      latinized: "Aftós théli",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "They want (masculine or mixed group).",
-    },
-    {
-      language: "greek",
-      word: "Αυτοί θέλουν.",
-      latinized: "Aftí thélun",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "She wants.",
-    },
-    {
-      language: "greek",
-      word: "Αυτή θέλει.",
-      latinized: "Aftí théli",
-    },
-  ],
-  [
-    {
-      language: "english",
-      word: "They want (feminine group).",
-    },
-    {
-      language: "greek",
-      word: "Αυτές θέλουν.",
-      latinized: "Aftés thélun",
-    },
-  ],
-];
+export default data;

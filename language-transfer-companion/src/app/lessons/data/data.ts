@@ -1,10 +1,10 @@
 import { useMemo } from "react";
-import { Data } from "../types";
 import { data } from "./lessons";
+import { VocabEntry } from "../types";
 
-type DataResult = Data & {
-  englishVocab: string[];
-  greekVocab: string[];
+type DataResult = {
+  vocabulary: VocabEntry[];
+  exercises: VocabEntry[];
 };
 
 export const useData = (
@@ -13,25 +13,30 @@ export const useData = (
 ): DataResult => {
   return useMemo((): DataResult => {
     const vocabulary = [];
-    const englishVocab = [];
-    const greekVocab = [];
+    const exercises = [];
 
     for (const lesson in data) {
       const lessonIndex = parseInt(lesson);
       if (lessonIndex >= minLesson && lessonIndex <= maxLesson) {
-        vocabulary.push(...data[lesson].vocabulary);
-        englishVocab.push(
-          ...data[lesson].vocabulary.map((item) => item[0].word)
+        vocabulary.push(
+          ...data[lesson].vocabulary.map(([english, greek]) => ({
+            english: english.word,
+            greek: greek.word,
+            greekLatinized: greek.latinized,
+          }))
         );
-        greekVocab.push(...data[lesson].vocabulary.map((item) => item[1].word));
+        exercises.push(
+          ...data[lesson].exercises.map(([english, greek]) => ({
+            english: english.word,
+            greek: greek.word,
+            greekLatinized: greek.latinized,
+          }))
+        );
       }
     }
-
     return {
       vocabulary,
-      englishVocab,
-      greekVocab,
-      exercisePrompts: data[maxLesson].exercisePrompts,
+      exercises,
     };
   }, [minLesson, maxLesson]);
 };

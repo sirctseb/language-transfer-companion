@@ -58,35 +58,117 @@ const data: Data = {
       },
     ],
   ],
-  exercisePrompts: [
-    {
-      task: "english-to-greek",
-      prompts: [
-        "I stay",
-        "I wait",
-        "I am waiting",
-        "She waits",
-        "She is waiting",
-        "I am not waiting",
-        "She is not waiting",
-        "She is waiting for me",
-        "Is she waiting for me?",
-        "Is she waiting?",
-      ],
-    },
-    {
-      task: "greek-to-english",
-      prompts: [
-        "μένω",
-        "περιμένω",
-        "μένει",
-        "περιμένει",
-        "δεν περιμένω",
-        "με περιμένει",
-        "με περιμένει;",
-        "Περιμένει;",
-      ],
-    },
+  exercises: [
+    [
+      {
+        language: "english",
+        word: "I stay",
+      },
+      {
+        language: "greek",
+        word: "μένω",
+        latinized: "meno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I wait",
+      },
+      {
+        language: "greek",
+        word: "περιμένω",
+        latinized: "perimeno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I am waiting",
+      },
+      {
+        language: "greek",
+        word: "περιμένω",
+        latinized: "perimeno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "She waits",
+      },
+      {
+        language: "greek",
+        word: "περιμένει",
+        latinized: "perimenei",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "She is waiting",
+      },
+      {
+        language: "greek",
+        word: "περιμένει",
+        latinized: "perimenei",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "I am not waiting",
+      },
+      {
+        language: "greek",
+        word: "δεν περιμένω",
+        latinized: "den perimeno",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "She is not waiting",
+      },
+      {
+        language: "greek",
+        word: "δεν περιμένει",
+        latinized: "den perimenei",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "She is waiting for me",
+      },
+      {
+        language: "greek",
+        word: "με περιμένει",
+        latinized: "me perimenei",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Is she waiting for me?",
+      },
+      {
+        language: "greek",
+        word: "με περιμένει;",
+        latinized: "me perimenei;",
+      },
+    ],
+    [
+      {
+        language: "english",
+        word: "Is she waiting?",
+      },
+      {
+        language: "greek",
+        word: "Περιμένει;",
+        latinized: "Perimenei;",
+      },
+    ],
   ],
 };
 
