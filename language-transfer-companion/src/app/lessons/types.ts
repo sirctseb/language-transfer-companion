@@ -9,6 +9,8 @@ type GreekVocab = {
   latinized: string;
 };
 
+type VocabPair = [EnglishVocab, GreekVocab];
+
 type EnglishToGreekExercisePrompt = {
   task: "english-to-greek";
   prompts: string[];
@@ -20,6 +22,15 @@ type GreekToEnglishExercisePrompt = {
 };
 
 export type Data = {
-  vocabulary: [EnglishVocab, GreekVocab][];
-  exercisePrompts: [EnglishToGreekExercisePrompt, GreekToEnglishExercisePrompt];
+  vocabulary: VocabPair[];
+  exercises: VocabPair[];
 };
+export type VocabEntry = {
+  [Language.English]: string;
+  [Language.Greek]: string;
+  greekLatinized: string;
+};
+export enum Language {
+  English = "english",
+  Greek = "greek",
+}
