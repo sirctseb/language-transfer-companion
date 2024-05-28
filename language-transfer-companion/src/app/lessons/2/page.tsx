@@ -1,20 +1,12 @@
-import VocabList from "../VocabList";
+import VocabList, { VocabList2 } from "../VocabList";
 import { useData } from "../data/data";
 
 export default function Home() {
-  const { englishVocab, greekVocab, exercisePrompts } = useData(2);
+  const { exercises, vocabulary } = useData(2);
   return (
     <>
-      <VocabList
-        title="Lesson Vocab"
-        englishWords={englishVocab}
-        greekWords={greekVocab}
-      />
-      <VocabList
-        title="Practice"
-        englishWords={exercisePrompts[0].prompts}
-        greekWords={exercisePrompts[1].prompts}
-      />
+      <VocabList2 title="Lesson Vocab" list={vocabulary} />
+      <VocabList2 title="Practice" list={exercises} />
     </>
   );
 }
