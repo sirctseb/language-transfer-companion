@@ -1,10 +1,14 @@
-import { VocabList } from "../VocabList";
-import { useData } from "../data/data";
+import { VocabList } from "./VocabList";
+import { useData } from "./data/data";
 
-export default function Home() {
-  const { vocabulary } = useData(3);
+type AutoPageProps = {
+  lesson: number;
+};
+
+export function AutoPage({ lesson }: AutoPageProps) {
+  const { vocabulary } = useData(lesson);
   const { vocabulary: cumulativeVocab, exercises: cumulativeExercises } =
-    useData(2, 3);
+    useData(2, lesson);
   return (
     <>
       <VocabList title="Lesson Vocab" list={vocabulary} />

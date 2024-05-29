@@ -11,16 +11,6 @@ type GreekVocab = {
 
 type VocabPair = [EnglishVocab, GreekVocab];
 
-type EnglishToGreekExercisePrompt = {
-  task: "english-to-greek";
-  prompts: string[];
-};
-
-type GreekToEnglishExercisePrompt = {
-  task: "greek-to-english";
-  prompts: string[];
-};
-
 export type Data = {
   vocabulary: VocabPair[];
   exercises: VocabPair[];
