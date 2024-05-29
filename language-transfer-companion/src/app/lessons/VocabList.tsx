@@ -30,7 +30,7 @@ function VocabCard({ entry, language }: VocabCardProps) {
 
   return (
     <div
-      className="rounded-md border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-800 dark:bg-gray-900"
+      className="rounded-md border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-800 dark:bg-gray-900 cursor-pointer"
       onClick={toggleLanguage}
       title={
         entry[
