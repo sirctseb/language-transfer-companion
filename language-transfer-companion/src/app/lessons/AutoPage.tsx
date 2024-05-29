@@ -11,8 +11,8 @@ export function AutoPage({ lesson }: AutoPageProps) {
   return (
     <>
       <VocabList title="Lesson Vocab" list={vocabulary} />
-      <VocabList title="Cumulative Vocab" list={cumulativeVocab} />
       <VocabList title="Practice" list={exercises} />
+      <VocabList title="Cumulative Vocab" list={cumulativeVocab} />
     </>
   );
 }
