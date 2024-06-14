@@ -37,11 +37,9 @@ export async function GET(request: NextRequest): Promise<Response> {
     cumulative
   );
 
-  console.log({ prompt });
-
   const response = await api.chat.completions.create({
     messages: [{ role: "system", content: prompt }],
-    model: "gpt-3.5-turbo",
+    model: "gpt-4o",
   });
 
   try {
