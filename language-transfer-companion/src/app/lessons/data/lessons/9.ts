@@ -3,20 +3,20 @@ import { Data } from "../../types";
 const data: Data = {
   vocabulary: [
     [
-      { language: "english", word: "contain" },
+      { language: "english", word: "it contains" },
       { language: "greek", word: "περιέχει", latinized: "periéchi" },
     ],
     [
-      { language: "english", word: "look after / take care" },
+      { language: "english", word: "I look after" },
       { language: "greek", word: "προσέχω", latinized: "prosékho" },
     ],
     [
-      { language: "english", word: "try" },
+      { language: "english", word: "I try" },
       { language: "greek", word: "προσπαθώ", latinized: "prospathó" },
     ],
     [
-      { language: "english", word: "passion" },
-      { language: "greek", word: "πάθος", latinized: "páthos" },
+      { language: "english", word: "the passion" },
+      { language: "greek", word: "η πάθη", latinized: "i páthi" },
     ],
   ],
   exercises: [

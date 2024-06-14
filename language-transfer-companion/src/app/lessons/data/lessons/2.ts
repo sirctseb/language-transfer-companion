@@ -5,7 +5,7 @@ const data: Data = {
     [
       {
         language: "english",
-        word: "stay",
+        word: "I stay",
       },
       {
         language: "greek",
@@ -16,7 +16,7 @@ const data: Data = {
     [
       {
         language: "english",
-        word: "wait",
+        word: "I wait",
       },
       {
         language: "greek",
@@ -38,7 +38,7 @@ const data: Data = {
     [
       {
         language: "english",
-        word: "stays",
+        word: "He stays",
       },
       {
         language: "greek",

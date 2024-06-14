@@ -16,7 +16,7 @@ const data: Data = {
     [
       {
         language: "english",
-        word: "insist",
+        word: "I insist",
       },
       {
         language: "greek",

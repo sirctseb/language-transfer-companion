@@ -11,10 +11,6 @@ const data: Data = {
       { language: "greek", word: "πάλι", latinized: "páli" },
     ],
     [
-      { language: "english", word: "book" },
-      { language: "greek", word: "βιβλίο", latinized: "vivlío" },
-    ],
-    [
       { language: "english", word: "thing" },
       { language: "greek", word: "πράγμα", latinized: "prághma" },
     ],

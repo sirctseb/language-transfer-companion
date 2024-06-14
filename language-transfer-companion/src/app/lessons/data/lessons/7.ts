@@ -5,12 +5,12 @@ const data: Data = {
     [
       {
         language: "english",
-        word: "mobile phone",
+        word: "the mobile phone",
       },
       {
         language: "greek",
-        word: "κινητό",
-        latinized: "kinitó",
+        word: "το κινητό",
+        latinized: "to kinitó",
       },
     ],
     [

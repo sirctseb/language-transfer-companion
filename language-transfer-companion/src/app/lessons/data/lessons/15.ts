@@ -11,7 +11,7 @@ const data: Data = {
       { language: "greek", word: "περιμένουμε", latinized: "periménume" },
     ],
     [
-      { language: "english", word: "we make/do" },
+      { language: "english", word: "we do" },
       { language: "greek", word: "κάνουμε", latinized: "kánume" },
     ],
     [

@@ -7,20 +7,20 @@ const data: Data = {
       { language: "greek", word: "αυτή", latinized: "aftí" },
     ],
     [
-      { language: "english", word: "apology" },
-      { language: "greek", word: "απολογία", latinized: "apoloyía" },
+      { language: "english", word: "the apology" },
+      { language: "greek", word: "η απολογία", latinized: "i apología" },
     ],
     [
       { language: "english", word: "the (feminine)" },
       { language: "greek", word: "η", latinized: "i" },
     ],
     [
-      { language: "english", word: "city" },
-      { language: "greek", word: "πόλη", latinized: "póli" },
+      { language: "english", word: "the city" },
+      { language: "greek", word: "η πόλη", latinized: "i póli" },
     ],
     [
-      { language: "english", word: "world" },
-      { language: "greek", word: "κόσμος", latinized: "kósmos" },
+      { language: "english", word: "the world" },
+      { language: "greek", word: "ο κόσμος", latinized: "o kósmos" },
     ],
     [
       { language: "english", word: "big (masculine)" },

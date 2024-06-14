@@ -19,40 +19,40 @@ const data: Data = {
       { language: "greek", word: "όχι", latinized: "óchi" },
     ],
     [
-      { language: "english", word: "car" },
-      { language: "greek", word: "αυτοκίνητο", latinized: "aftokínito" },
+      { language: "english", word: "the car" },
+      { language: "greek", word: "το αυτοκίνητο", latinized: "to aftokínito" },
     ],
     [
       { language: "english", word: "is" },
       { language: "greek", word: "είναι", latinized: "íne" },
     ],
     [
-      { language: "english", word: "problem" },
-      { language: "greek", word: "πρόβλημα", latinized: "próvlima" },
+      { language: "english", word: "the problem" },
+      { language: "greek", word: "το πρόβλημα", latinized: "to próvlima" },
     ],
     [
-      { language: "english", word: "book" },
-      { language: "greek", word: "βιβλίο", latinized: "vivlío" },
+      { language: "english", word: "the book" },
+      { language: "greek", word: "το βιβλίο", latinized: "to vivlío" },
     ],
     [
-      { language: "english", word: "system" },
-      { language: "greek", word: "σύστημα", latinized: "sístima" },
+      { language: "english", word: "the system" },
+      { language: "greek", word: "το σύστημα", latinized: "to sístima" },
     ],
     [
-      { language: "english", word: "program" },
-      { language: "greek", word: "πρόγραμμα", latinized: "próghrama" },
+      { language: "english", word: "the program" },
+      { language: "greek", word: "το πρόγραμμα", latinized: "to próghrama" },
     ],
     [
-      { language: "english", word: "diagram" },
-      { language: "greek", word: "διάγραμμα", latinized: "dhiághrama" },
+      { language: "english", word: "the diagram" },
+      { language: "greek", word: "το διάγραμμα", latinized: "to dhiághrama" },
     ],
     [
-      { language: "english", word: "aroma" },
-      { language: "greek", word: "άρωμα", latinized: "ároma" },
+      { language: "english", word: "the aroma" },
+      { language: "greek", word: "το άρωμα", latinized: "to ároma" },
     ],
     [
-      { language: "english", word: "climate" },
-      { language: "greek", word: "κλίμα", latinized: "klíma" },
+      { language: "english", word: "the climate" },
+      { language: "greek", word: "το κλίμα", latinized: "to klíma" },
     ],
   ],
   exercises: [

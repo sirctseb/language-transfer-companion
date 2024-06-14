@@ -3,7 +3,7 @@ import { Data } from "../../types";
 const data: Data = {
   vocabulary: [
     [
-      { language: "english", word: "can" },
+      { language: "english", word: "I can" },
       { language: "greek", word: "μπορώ", latinized: "boró" },
     ],
     [

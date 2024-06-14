@@ -3,16 +3,16 @@ import { Data } from "../../types";
 const data: Data = {
   vocabulary: [
     [
-      { language: "english", word: "road" },
-      { language: "greek", word: "δρόμος", latinized: "dhrómos" },
+      { language: "english", word: "the road" },
+      { language: "greek", word: "Ο δρόμος", latinized: "o drómos" },
     ],
     [
-      { language: "english", word: "river" },
-      { language: "greek", word: "ποταμός", latinized: "potamós" },
+      { language: "english", word: "the river" },
+      { language: "greek", word: "Ο ποταμός", latinized: "o potoamós" },
     ],
     [
-      { language: "english", word: "man" },
-      { language: "greek", word: "άντρας", latinized: "ándras" },
+      { language: "english", word: "the man" },
+      { language: "greek", word: "Ο άντρας", latinized: "o ándras" },
     ],
     [
       { language: "english", word: "from" },
