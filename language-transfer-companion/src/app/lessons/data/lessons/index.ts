@@ -39,6 +39,24 @@ import _37 from "./37";
 import _38 from "./38";
 import _39 from "./39";
 import _40 from "./40";
+import _41 from "./41";
+import _42 from "./42";
+import _43 from "./43";
+import _44 from "./44";
+import _45 from "./45";
+import _46 from "./46";
+import _47 from "./47";
+import _48 from "./48";
+import _49 from "./49";
+import _50 from "./50";
+import _51 from "./51";
+import _52 from "./52";
+import _53 from "./53";
+import _54 from "./54";
+import _55 from "./55";
+import _56 from "./56";
+import _57 from "./57";
+import _58 from "./58";
 
 type LessonData = {
   [key: number]: Data;
@@ -84,4 +102,22 @@ export const data: LessonData = {
   38: _38,
   39: _39,
   40: _40,
+  41: _41,
+  42: _42,
+  43: _43,
+  44: _44,
+  45: _45,
+  46: _46,
+  47: _47,
+  48: _48,
+  49: _49,
+  50: _50,
+  51: _51,
+  52: _52,
+  53: _53,
+  54: _54,
+  55: _55,
+  56: _56,
+  57: _57,
+  58: _58,
 };
