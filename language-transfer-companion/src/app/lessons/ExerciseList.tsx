@@ -23,7 +23,7 @@ export function ExerciseList({ cumulative, lesson }: ExerciseListProps) {
     console.log({ message });
     setExercises(message.split("\n").filter((result: string) => result !== ""));
     setLoading(false);
-  }, [lesson]);
+  }, [cumulative, lesson]);
 
   return (
     <div className="py-2 md:py-2">
